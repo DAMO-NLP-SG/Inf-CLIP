@@ -238,7 +238,7 @@ def parse_args(args):
         help='Override default image mean value of dataset')
     parser.add_argument(
         '--image-std', type=float, nargs='+', default=None, metavar='STD',
-        help='Override default image std deviation of of dataset')
+        help='Override default image std deviation of dataset')
     parser.add_argument(
         '--image-interpolation',
         default=None, type=str, choices=['bicubic', 'bilinear', 'random'],
